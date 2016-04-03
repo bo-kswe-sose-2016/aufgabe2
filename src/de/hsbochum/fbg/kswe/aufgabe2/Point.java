@@ -15,8 +15,10 @@ public class Point {
     }
 
     public double distanceTo(Point other) {
-        //TODO implement
-        return 0.0;
+        double deltaLat = this.latitude - other.latitude;
+        double deltaLon = this.longitude - other.longitude;
+        
+        return Math.sqrt((deltaLat*deltaLat)+(deltaLon*deltaLon)) * 100000;
     }
     
 }
