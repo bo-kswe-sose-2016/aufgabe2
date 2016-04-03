@@ -15,4 +15,5 @@ die richtige Lösung ist und merge entsprechend.
 
 ## Ergebnis
 
-Bei Ausführung von `Conflicts.java` sollte als Entfernung `` ausgegeben werden.
+Bei Ausführung von `Conflicts.java` sollte als Entfernung ungefähr `60232`
+ausgegeben werden.
